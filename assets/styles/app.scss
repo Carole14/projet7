@@ -1,0 +1,65 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&family=Unica+One&family=Varela+Round&display=swap');
+
+
+h1 {
+    text-align: center;
+    font-family: 'Unica One', cursive;
+}
+
+.vertical-line{
+    border-left: 2px solid;
+    display: inline-block;
+    height: 130px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Varela Round', sans-serif;
+}
+
+p {
+	font-family: 'Signika Negative', sans-serif;
+}
+
+footer {
+
+    position:absolute;
+    text-align: center;
+    
+}
+
+body {
+    position: relative;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+.form-signin input[type='email'] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type='password'] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+ul {
+	list-style-type: none;
+}
